@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 
+FileReader::FileReader(const std::string& fileName) : m_fileName(fileName) {}
+
 std::string FileReader::ReadFileContent(const std::string& fileName) {
 	std::ifstream fileToBeRead(fileName);
 
