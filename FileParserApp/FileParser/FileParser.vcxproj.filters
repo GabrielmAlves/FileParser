@@ -36,9 +36,15 @@
     <ClCompile Include="FileReader.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

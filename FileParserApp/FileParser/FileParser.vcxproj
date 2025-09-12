@@ -131,9 +131,11 @@
   <ItemGroup>
     <ClCompile Include="FileParser.cpp" />
     <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Tokenizer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
