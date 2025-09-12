@@ -6,7 +6,7 @@
 FileReader::FileReader(const std::string& fileName) : m_fileName(fileName) {}
 
 std::string FileReader::ReadFileContent(const std::string& fileName) {
-	std::ifstream fileToBeRead(fileName);
+	const std::ifstream fileToBeRead(fileName);
 	std::ostringstream fileContentBuffer;
 
 	if (!fileToBeRead)
