@@ -47,5 +47,8 @@
     <ClInclude Include="Tokenizer.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

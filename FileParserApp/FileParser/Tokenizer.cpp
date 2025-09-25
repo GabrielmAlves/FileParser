@@ -1,9 +1,9 @@
 #include "Tokenizer.h"
+#include "Token.h"
 #include <vector>
 #include <string>
 
-Tokenizer::Tokenizer() {}
-
-std::vector<std::string> Tokenizer::GetToken(const std::string& fileContent) {
-	return { "" };
+std::vector<Token> Tokenizer::tokenize(const std::string& fileContent) {
+	std::vector<Token> tokens;
+	return tokens;
 }

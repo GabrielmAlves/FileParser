@@ -1,12 +1,11 @@
 #pragma once
 #include <vector>
 #include<string>
+#include "Token.h"
 
 class Tokenizer {
 public:
-	Tokenizer();
+	explicit Tokenizer() = default;
 	~Tokenizer();
-	std::vector<std::string> GetToken(const std::string& fileContent);
-private:
-	std::vector<std::string> tokens;
+	std::vector<Token> tokenize(const std::string& fileContent);
 };
