@@ -131,10 +131,12 @@
   <ItemGroup>
     <ClCompile Include="FileParser.cpp" />
     <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="Filters.cpp" />
     <ClCompile Include="Tokenizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Filters.h" />
     <ClInclude Include="Token.h" />
     <ClInclude Include="Tokenizer.h" />
   </ItemGroup>
